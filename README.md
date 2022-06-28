@@ -1,10 +1,25 @@
-# Getting Started with Create React App
+# Cosmic Traders - Lightspeed Academy FREE Youtube React Course
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the repository used by the FREE Lightspeed Academy React Course available at: https://www.youtube.com/playlist?list=PLWKqj0CN1VsuRhQ9p307fK9BvsEibjs_a.
+
+Git tags are available for the starting point of each video. The available tag names correspond to the YouTube video names and can be listed with the following git command:
+```
+git tag
+```
+
+To simply view the repository state that corresponds with a given video endpoint use:
+```
+git checkout tags/<tag>
+```
+
+To checkout a tag into a new branch where you can edit the repository starting with the state that corresponds with a given tag / video endpoint use:
+```
+git checkout tags/<tag> -b <branch>
+```
 
 ## Available Scripts
 
-In the project directory, you can run:
+This project was generated with create-react-app. In the project directory, you can run:
 
 ### `npm start`
 
@@ -13,11 +28,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
