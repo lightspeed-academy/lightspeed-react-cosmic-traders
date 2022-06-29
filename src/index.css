@@ -1,13 +1,90 @@
+@font-face {
+  font-family: 'nasalization-book';
+  src: url('./fonts/nasalization-bk-webfont.woff2') format('woff2'),
+    url('./fonts/nasalization-bk-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'nasalization-light';
+  src: url('./fonts/nasalization-lt-webfont.woff2') format('woff2'),
+    url('./fonts/nasalization-lt-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  background-color: #282c34;
+  color: #ccc;
+  padding: 50px 100px;
+  background-color: #282c34;
+  padding: 50px 100px;
+  font-family: nasalization-book, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+input {
+  font-size: 18px;
+  padding: 5px;
+  margin: 10px;
+}
+
+a {
+  color: #4098AF;
+}
+
+.section-header {
+
+  background-color: #353941;
+  text-align: center;
+  font-size: 32px;
+  padding-bottom: 10px;
+
+}
+
+.button {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  padding: 15px;
+  font-size: 20px;
+  background-color: #4098AF;
+  border: 0;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, #44B1FF 0%, #8B29FF 100%)
+}
+
+.button:hover {
+  background-image: linear-gradient(to right, #44B1FF 0%, #5773FF 100%)
+}
+
+.link-button {
+  background: none !important;
+  border: none;
+  padding: 0 !important;
+  color: #4098AF;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.link-button:hover {
+  color: #5AB2C9
+}
+
+h1,
+h2 {
+  margin: 21px 0;
 }
