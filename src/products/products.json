@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Warp Engine",
+    "price": 1529995,
+    "image": "warp-engine.png"
+  },
+  {
+    "name": "Double Retro Laser Blammers",
+    "price": 129999,
+    "image": "double-retro-laser-blammers.png"
+  },
+  {
+    "name": "Cryogenic Chamber",
+    "price": 595995,
+    "image": "cryogenic-chamber.png"
+  },
+  {
+    "name": "Space Helmet",
+    "price": 1275,
+    "image": "space-helmet.png"
+  },
+  {
+    "name": "Teleporter",
+    "price": 655999,
+    "image": "teleporter.png"
+  },
+  {
+    "name": "Targeting Viewport",
+    "price": 29995,
+    "image": "targeting-viewport.png"
+  },
+  {
+    "name": "Tractor Beam",
+    "price": 345990,
+    "image": "tractor-beam.png"
+  },
+  {
+    "name": "Radar Array",
+    "price": 220995,
+    "image": "radar-array.png"
+  },
+  {
+    "name": "Jetpack",
+    "price": 12995,
+    "image": "jetpack.png"
+  },
+  {
+    "name": "Universal Translator",
+    "price": 9895,
+    "image": "universal-translator.png"
+  },
+  {
+    "name": "Booster Rocket",
+    "price": 129980,
+    "image": "booster-rocket.png"
+  },
+  {
+    "name": "Shield Generator",
+    "price": 485700,
+    "image": "shield-generator.png"
+  }
+]

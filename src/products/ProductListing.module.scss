@@ -1,0 +1,8 @@
+$gutter: 20px;
+
+/* Product List Styles */
+.products {
+  display: grid;
+  grid-gap: 40px $gutter;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
