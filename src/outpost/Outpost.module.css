@@ -1,0 +1,8 @@
+.mainLeft {
+  flex-grow: 1;
+  margin-right: 30px;
+}
+
+.rightSidebar {
+  width: 360px;
+}
