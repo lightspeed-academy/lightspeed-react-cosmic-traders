@@ -1,4 +1,4 @@
-import styles from './Outpost.module.css'
+import styles from './Outpost.module.scss'
 
 export default function Outpost() {
   return (
