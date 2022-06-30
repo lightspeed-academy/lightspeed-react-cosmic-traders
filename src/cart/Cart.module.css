@@ -1,0 +1,41 @@
+.cart {
+  background-color: #353941;
+  padding: 20px;
+  font-size:18px;
+}
+
+.cartItem {
+  display:flex;
+  justify-content: space-between;
+  padding:10px;
+}
+
+.cartItem img {
+  width:50px;
+}
+
+.flexCenter {
+  display: flex;
+  align-items: center;
+}
+
+.checkoutButton {
+  font-size:24px;
+  padding: 15px 10px;
+  margin-bottom: 10px;
+}
+
+.cartTotal {
+  display: flex;
+  padding: 10px;
+  justify-content: flex-end;
+  background-color: #3D4149;
+  margin-left: -20px;
+  margin-right: -20px;
+  padding-right: 30px;
+  margin-bottom: -20px;
+}
+
+.totalLabel {
+  margin-right:20px;
+}

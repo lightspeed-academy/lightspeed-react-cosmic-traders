@@ -7,7 +7,7 @@ function ProductListing(props) {
     <ul className={styles.products}>
       {products.map((product, idx) => (
         <li key={idx} >
-          <Product productData={product} />
+          <Product productData={product} addToCart={props.addToCart} />
         </li>)
       )}
     </ul>

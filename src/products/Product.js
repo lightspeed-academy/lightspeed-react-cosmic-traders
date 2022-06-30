@@ -1,10 +1,13 @@
 import styles from './Product.module.scss'
 import { toCurrencyFormat } from '../utils/format-utils'
 
-function Product({ productData }) {
+function Product({ productData, addToCart }) {
   return (
     <>
       <div className={styles.productImage}>
+        <button
+          className={`button ${styles.addToCart}`}
+          onClick={() => addToCart(productData)}>Add to cart</button>
         <img src={require(`../images/${productData.image}`)} alt="" />
       </div>
       <div className={styles.productDetails}>
