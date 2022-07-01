@@ -1,21 +1,14 @@
+import { useState } from 'react'
+
 import styles from './Outpost.module.scss'
 import ProductListing from '../products/ProductListing'
 import Cart from '../cart/Cart'
 
 export default function Outpost() {
-  const cart = [{
-    "name": "Warp Engine",
-    "price": 1529995,
-    "image": "warp-engine.png"
-  }, {
-    "name": "Warp Engine",
-    "price": 1529995,
-    "image": "warp-engine.png"
-  }];
+  const [cart, setCart] = useState([])
 
   function addToCart(product) {
-    cart.push(product)
-    console.log('addToCart', cart)
+    setCart([...cart, product])
   }
 
 
