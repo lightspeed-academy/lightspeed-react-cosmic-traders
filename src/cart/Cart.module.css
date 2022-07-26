@@ -1,17 +1,22 @@
 .cart {
   background-color: #353941;
   padding: 20px;
-  font-size:18px;
+  font-size: 18px;
+}
+
+.cart span {
+  display: block;
+  margin-bottom: 20px;
 }
 
 .cartItem {
-  display:flex;
+  display: flex;
   justify-content: space-between;
-  padding:10px;
+  padding: 10px;
 }
 
 .cartItem img {
-  width:50px;
+  width: 50px;
 }
 
 .flexCenter {
@@ -20,7 +25,7 @@
 }
 
 .checkoutButton {
-  font-size:24px;
+  font-size: 24px;
   padding: 15px 10px;
   margin-bottom: 10px;
 }
@@ -37,5 +42,5 @@
 }
 
 .totalLabel {
-  margin-right:20px;
+  margin-right: 20px;
 }
