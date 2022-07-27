@@ -7,8 +7,13 @@ const getCartTotal = (cart) => {
 }
 
 function Cart({ cart }) {
+  let emptyCartMessage
+  if (cart.length === 0)
+    emptyCartMessage = <span>There are no items in your cart</span>
+
   return (
     <div className={styles.cart}>
+      {emptyCartMessage}
       <ul>
         {cart.map((product, i) => <CartItem cartItem={product} key={'cart' + i} />)}
         <li className={styles.cartTotal}>

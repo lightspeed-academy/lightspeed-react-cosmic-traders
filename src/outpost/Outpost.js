@@ -11,7 +11,6 @@ export default function Outpost() {
     setCart([...cart, product])
   }
 
-
   return (
     <>
       <div className={styles.mainLeft}>
