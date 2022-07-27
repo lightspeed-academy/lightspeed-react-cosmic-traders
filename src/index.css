@@ -40,6 +40,11 @@ input {
 
 a {
   color: #4098AF;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .section-header {
