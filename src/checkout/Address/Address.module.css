@@ -1,0 +1,56 @@
+.address {
+  background-color: #353941;
+  padding: 20px;
+  font-size: 18px;
+}
+
+.inputGroup {
+  display: flex;
+  align-items: center;
+}
+
+.inputGroup label {
+  flex: 0 0 150px;
+  text-align: right;
+}
+
+.inputGroup input {
+  width: 350px;
+}
+
+.addressEdit {
+  display: flex;
+  align-items: top;
+}
+
+.addressDisplay {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 35px;
+}
+
+.inputGroup {
+  display: flex;
+  align-items: center;
+}
+
+.inputGroup label {
+  flex: 0 0 150px;
+  text-align: right;
+}
+
+.inputGroup input {
+  width: 350px;
+}
+
+.save {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.save button {
+  margin-top: 10px;
+  margin-right: 35px;
+  padding-left: 20px;
+  padding-right: 20px;
+}

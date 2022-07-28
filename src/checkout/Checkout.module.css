@@ -1,0 +1,12 @@
+.sectionHeader {
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+
+.checkout {
+  display:flex;
+  margin: 0 auto;
+  width: 600px;
+  justify-content: center;
+  flex-direction: column;
+}

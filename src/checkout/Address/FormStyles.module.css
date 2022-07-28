@@ -1,0 +1,21 @@
+.inputGroup {
+  display:flex;
+  align-items: center;
+}
+
+.inputGroup label {
+  flex: 0 0 150px;
+  text-align: right;
+}
+
+.inputGroup input {
+  width: 350px;
+}
+
+.displayGroup {
+  display:flex;
+  margin: 5px 0;
+}
+
+.displayGroup span {
+}
