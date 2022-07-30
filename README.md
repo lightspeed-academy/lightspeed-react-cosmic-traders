@@ -2,7 +2,7 @@
 
 This is the repository used by the FREE Lightspeed Academy React Course available at: https://www.youtube.com/playlist?list=PLWKqj0CN1VsuRhQ9p307fK9BvsEibjs_a.
 
-Git tags are available for the starting point of each video. The available tag names correspond to the YouTube video names and can be listed with the following git command:
+Git tags are available for the ending point of each video. The available tag names correspond to the YouTube video names and can be listed with the following git command:
 ```
 git tag
 ```
