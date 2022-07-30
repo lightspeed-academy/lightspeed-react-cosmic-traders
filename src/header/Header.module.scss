@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  font-size: 30px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #555;
+
+  &>* {
+    margin-right: 25px;
+  }
+
+  a {
+    color: #5283FF;
+  }
+
+  img {
+    height: 50px;
+  }
+}
