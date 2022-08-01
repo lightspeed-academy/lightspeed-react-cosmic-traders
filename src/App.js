@@ -7,6 +7,7 @@ import {
 
 import Outpost from './outpost/Outpost'
 import Checkout from './checkout/Checkout'
+import ProductDetails from './products/ProductDetails'
 import Header from './header/Header'
 import styles from './App.module.css'
 
@@ -18,6 +19,7 @@ function App() {
         <Routes>
           <Route path="/outpost" element={<Outpost />} />
           <Route path="/checkout" element={<Checkout />} />
+          <Route path="/product-details/:slug" element={<ProductDetails />} />
           <Route path="/" element={<Navigate to="/outpost" />} />
         </Routes>
       </div>
