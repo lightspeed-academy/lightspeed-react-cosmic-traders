@@ -6,3 +6,15 @@ $gutter: 20px;
   grid-gap: 40px $gutter;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
+
+.filters {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 100px 25px 100px;
+  margin-bottom: 25px;
+  border-bottom: 1px solid #444;
+
+  button {
+    width: 140px;
+  }
+}

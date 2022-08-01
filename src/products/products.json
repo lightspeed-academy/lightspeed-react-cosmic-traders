@@ -2,61 +2,73 @@
   {
     "name": "Warp Engine",
     "price": 1529995,
-    "image": "warp-engine.png"
+    "image": "warp-engine.png",
+    "category": "transport"
   },
   {
     "name": "Double Retro Laser Blammers",
     "price": 129999,
-    "image": "double-retro-laser-blammers.png"
+    "image": "double-retro-laser-blammers.png",
+    "category": "weapons"
   },
   {
     "name": "Cryogenic Chamber",
     "price": 595995,
-    "image": "cryogenic-chamber.png"
+    "image": "cryogenic-chamber.png",
+    "category": "equipment"
   },
   {
     "name": "Space Helmet",
     "price": 1275,
-    "image": "space-helmet.png"
+    "image": "space-helmet.png",
+    "category": "equipment"
   },
   {
     "name": "Teleporter",
     "price": 655999,
-    "image": "teleporter.png"
+    "image": "teleporter.png",
+    "category": "transport"
   },
   {
     "name": "Targeting Viewport",
     "price": 29995,
-    "image": "targeting-viewport.png"
+    "image": "targeting-viewport.png",
+    "category": "weapons"
   },
   {
     "name": "Tractor Beam",
     "price": 345990,
-    "image": "tractor-beam.png"
+    "image": "tractor-beam.png",
+    "category": "weapons"
   },
   {
     "name": "Radar Array",
     "price": 220995,
-    "image": "radar-array.png"
+    "image": "radar-array.png",
+    "category": "defense"
   },
   {
     "name": "Jetpack",
     "price": 12995,
-    "image": "jetpack.png"
+    "image": "jetpack.png",
+    "category": "transport"
   },
   {
     "name": "Universal Translator",
     "price": 9895,
-    "image": "universal-translator.png"
+    "image": "universal-translator.png",
+    "category": "equipment"
   },
   {
     "name": "Booster Rocket",
     "price": 129980,
-    "image": "booster-rocket.png"
+    "image": "booster-rocket.png",
+    "category": "transport"
   },
   {
     "name": "Shield Generator",
     "price": 485700,
-    "image": "shield-generator.png"
+    "image": "shield-generator.png",
+    "category": "defense"
   }
 ]
