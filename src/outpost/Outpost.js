@@ -1,12 +1,8 @@
-import { useState } from 'react'
-
 import styles from './Outpost.module.scss'
 import ProductListing from '../products/ProductListing'
 import Cart from '../cart/Cart'
 
-export default function Outpost() {
-  const [cart, setCart] = useState([])
-
+export default function Outpost({ cart, setCart }) {
   function addToCart(product) {
     setCart([...cart, product])
   }
